@@ -1,0 +1,347 @@
+/* CB Main Style Start Here */
+
+body{background:#e9ebee;}
+  .commentBox{ background-color: #020306; border-radius:3px 3px; padding-top:15px; padding-bottom:15px; margin-top:3%;border: 1px solid #dddfe2;}
+  .commentBox h4{ margin-bottom:30px;}
+  .input-group-addon{ padding:0; padding-right:10px; background:none; border:none;}
+  .profile-img-icon{
+	  border-radius: 50%;
+    overflow: hidden;
+	  height: 50px;
+    width: 50px;
+    border-style: dashed;
+  }
+  .img-icon{
+	  border-radius: 50%;
+    overflow: hidden;
+	  height: 32px;
+    width: 32px;
+  }
+  .form-control{border-radius:16px !important;}
+  .btn-block{ margin-top:10px;}
+  /* .comment span{ font-weight:bold;} */
+  .comment-name { font-weight: bold;}
+  .comment-txt { font-weight:400;}
+
+  ul{ list-style:none; color: #fff;}
+  @media (max-width: 450px) {
+    ul {list-style: none; padding: inherit;}
+}
+
+  ul li{ margin-bottom:10px; border-bottom:#EEE 1px solid; padding-bottom:6px;}
+  ul li:last-child{border-bottom:none;}
+  .comment{
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+		-ms-box-orient: horizontal;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex; 
+	  display: flex; 
+  }
+  .comment .img-icon{ margin-right:10px;}
+
+  .profile-img-icon:hover {
+    content: url('uploadPhoto-BRISE.png');
+    }
+
+  .editProfileLabel {
+    display: inline-block;
+    color: #2CFFF2;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+  }
+    
+  .editProfileLabel:hover {
+    color: #2cfff1a2;
+  }
+   
+  .editProfile {
+    color: aqua;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+  }
+
+
+/* CB Main Style End Here */
+
+
+
+
+/* .postComment {
+    text-align:center;
+    padding-top:6rem
+} */
+.postComment span {
+    position:relative;
+    color: #fff;
+}
+.postComment span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+
+.recentComments {
+    text-align:center;
+    /* padding-top:6rem */
+    padding-bottom: 2rem;
+}
+.recentComments span {
+    position:relative;
+    color: #fff;
+}
+.recentComments span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+
+
+
+/* by Ruben Vardanyan */
+.inp-border{
+	padding: 2px;
+	margin: 0.5vh 1vh;
+	border-radius: 20px;
+  max-width:200px;
+  
+}
+.inp-borderComment{
+	padding: 2px;
+	margin: 0.5vh 1vh;
+	border-radius: 20px;
+  max-width:500px;
+  
+}
+
+input:focus{
+	font-size: 15px; 
+}
+
+/* remove the resize button of textarea and hide the scrollbar */
+textarea {
+  resize: none;
+}
+
+#comment_input::-webkit-scrollbar{
+  display: none;
+}
+/* remove the resize button of textarea and hide the scrollbar */
+
+
+.input{
+  text-align:center;
+	padding: 15px;
+	outline: none;
+	border:double 0;
+	background: #272727;
+	border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+  width: 100%;
+}
+
+.inputComment{
+  text-align:start;
+	padding: 15px;
+	outline: none;
+	border:double 0;
+	background: #272727;
+	border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+  width: 100%;
+  height: 100px;
+}
+
+
+.a2{
+   background: linear-gradient(330.28deg,#2CFFF2  100%,#2CFFF2  100%,#2CFFF2  100%);
+}
+.a2 >input{
+  color: #2CFFF2;
+}
+.a2 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2CFFF2;
+  opacity: 0.6; /* Firefox */
+}
+.a2 >input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent;
+  opacity: 0.6; /* Firefox */
+}
+.a2 >textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2CFFF2;
+  opacity: 0.6; /* Firefox */
+  text-align: center;
+  padding: 20px;
+}
+.a2 >textarea:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent;
+  opacity: 0.6; /* Firefox */
+  text-align: center;
+  padding: 20px;
+}
+
+
+.inp-border:focus-within{
+
+background: linear-gradient(80.28deg,#2CFFF2       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-border:hover{
+background: linear-gradient(80.28deg,#2CFFF2       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-borderComment:focus-within{
+
+background: linear-gradient(80.28deg,#2CFFF2       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-borderComment:hover{
+background: linear-gradient(80.28deg,#2CFFF2       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+
+
+
+.notesdisplay3 {
+ 
+  position: relative;
+}
+
+.notesdisplay3:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  border: 28px solid transparent;
+  margin-right: -28px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #2CFFF2;
+  border-left: none;
+  border-bottom: 15px solid transparent;
+
+} 
+
+.notesdisplay3:after {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 15px;
+  border-width: 30px;
+	margin-top: -30px;
+  border-right-color: #FF54A6;
+}
+
+.notesdisplay3:before {
+  border-width: 36px;
+	margin-top: -36px;
+}
+
+/* style for scroll on comment section*/
+
+.mydivscroll {
+  overflow-y: auto;
+  max-height: 250px;
+}
+
+.mydivscroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.mydivscroll::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.mydivscroll::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.mydivscroll::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white; /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+/* style for comment bubble */
+
+.left-arrow {
+  position: relative;
+  background: #303030;
+  text-align: inherit;
+  min-width: 45%;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  float: unset; /* the original is set is right */
+  right: -20px;
+  max-width: 250px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 360px) {
+  .left-arrow {
+    max-width: 220px;
+  }
+}
+
+@media (min-width: 540px) {
+  .left-arrow {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .left-arrow {
+    max-width: 380px;
+  }
+}
+
+.left-arrow::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #ccc;
+}
+
+.left-arrow::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  left: -8px;
+  border: 10px solid transparent;
+  border-top: 10px solid #303030;
+  clear: both;
+}
+
+.showMoreLess-btn {
+  font-weight: 500;
+}
+
+#textarea_feedback {
+  text-align: right;
+  padding-right: 20px;
+  color: #a3a3a3;
+}
+
