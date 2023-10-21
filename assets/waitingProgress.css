@@ -1,0 +1,392 @@
+.bnb__img {
+  max-width: 38px;
+  -webkit-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.bnb__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 12px;
+  margin: 10px;
+}
+
+.bnb__bottom span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 137.5%;
+  color: #fff
+}
+
+.bnb__block {
+  margin-bottom: 25px
+}
+
+.bnb__img {
+  max-width: 38px;
+  -webkit-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+      -ms-transform: rotate(0);
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+  }
+  to {
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
+}
+
+
+/* added percentage sytle start here */
+
+.percentage100 {
+  color: #03ff00;
+  font-size: 16px;
+}
+
+
+.containerPercentage {
+  margin-top: 45px;
+  margin-left: 45px;
+  width: 350px;
+  height: 200px;
+}
+
+.loadingText {
+  color: #03ff00;
+  font-size: 16px;
+}
+
+
+/* added percentage sytle end here */
+
+
+
+/* added preloader sytle start here */
+
+/* Loader Styles start here */
+.loader-wrapper {
+  --line-width: 5px;
+  --curtain-color: #f1faee;
+  --outer-line-color: #19CBAE;
+  --middle-line-color: #8419DF;
+  --inner-line-color: #4525D8;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;    /* change to -1 so the percentage loader will appear on front and this loader is at the back*/
+}
+
+
+.loaderText {
+  display:block;
+  position: relative;
+  top:56%;
+  /* left:50%;  (Remove this and replace with text-align: -webkit-center to center everything(img and paragraph) on div class loaderText*/
+  text-align: -webkit-center;
+  font-style: italic;
+  /* font-weight:bolder; */
+  color: rgb(17, 214, 185);
+  z-index:1001;
+}
+
+/* @media screen and (width: 1024px) and (height: 600px),
+       screen and (width: 1280px) and (height: 800px), 
+       screen and (width: 375px) and (height: 667px),
+       screen and (width: 360px) and (height: 740px), 
+       screen and (width: 280px) and (height: 653px) { 
+  .loaderText {
+    top: 56%;
+  }
+} */
+@media screen and (width: 653px) and (height: 280px) {
+  .loaderText {
+    top: 63%;
+  }
+}
+@media screen and (width: 914px) and (height: 412px),
+       (width: 892px) and (height: 412px),
+       (width: 915px) and (height: 412px) {
+  .loaderText {
+    top: 60%;
+  }
+}
+@media screen and (width: 540px) and (height: 720px),
+       (width: 1280px) and (height: 800px),
+       (width: 1180px) and (height: 820px),
+       (width: 1368px) and (height: 912px) {
+  .loaderText {
+    top: 55%;
+  }
+}
+@media screen and (width: 414px) and (height: 896px),
+       (width: 390px) and (height: 844px),
+       (width: 393px) and (height: 851px),
+       (width: 412px) and (height: 915px), 
+       (width: 820px) and (height: 1180px),
+       (width: 768px) and (height: 1024px),
+       (width: 412px) and (height: 914px),
+       (width: 412px) and (height: 892px) {
+  .loaderText {
+    top: 54%;
+  }
+}
+
+@media screen and (width: 912px) and (height: 1368px) {
+  .loaderText {
+    top: 53%;
+  }
+}
+
+
+.loaderImage {
+  display:block;
+  position: initial;
+  height: 40px;
+  width: 40px;
+}
+
+.loader {
+  display:block;
+  position: relative;
+  top:50%;
+  left:50%;
+/*   transform: translate(-50%, -50%); */
+  width:150px;
+  height:150px;
+  margin:-75px 0 0 -75px;
+  border:var(--line-width) solid transparent;
+  border-top-color: var(--outer-line-color);
+  border-radius:100%;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  z-index:1001;
+}
+
+.loader:before {
+  content:"";
+  position: absolute;
+  top:4px;
+  left:4px;
+  right:4px;
+  bottom:4px;
+  border:var(--line-width) solid transparent;
+  border-top-color: var(--inner-line-color);
+  border-radius:100%;
+  -webkit-animation: spin 3s linear infinite;
+          animation: spin 3s linear infinite;
+}
+
+.loader:after {
+  content:"";
+  position: absolute;
+  top:14px;
+  left:14px;
+  right:14px;
+  bottom:14px;
+  border:var(--line-width) solid transparent;
+  border-top-color: var(--middle-line-color);
+  border-radius:100%;
+  -webkit-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0%   { 
+    -webkit-transform: rotate(0deg); 
+      -ms-transform: rotate(0deg); 
+          transform: rotate(0deg);
+  }
+  100% { 
+    -webkit-transform: rotate(360deg); 
+      -ms-transform: rotate(360deg); 
+          transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0%   { 
+    -webkit-transform: rotate(0deg); 
+      -ms-transform: rotate(0deg); 
+          transform: rotate(0deg);
+  }
+  100% { 
+    -webkit-transform: rotate(360deg); 
+      -ms-transform: rotate(360deg); 
+          transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper .loader-section {
+  position:fixed;
+  top:0;
+  background: linear-gradient(90deg, rgba(24,2,41,1) 100%, rgb(17, 214, 185) 100%);
+  width:51%;
+  height:100%;
+  z-index:1000;
+}
+
+.loader-wrapper .loader-section.section-left {
+  left:0
+}
+.loader-wrapper .loader-section.section-right {
+  right:0;
+}
+
+/* Loaded Styles */ 
+.loaded .loader-wrapper .loader-section.section-left {
+  transform: translateX(-100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+}
+.loaded .loader-wrapper .loader-section.section-right {
+  transform: translateX(100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645,0.045,0.355,1.000);
+}
+.loaded .loader {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.loaded .loader-wrapper {
+  visibility: hidden;
+  transform:translateY(-100%);
+  transition: all .3s 1s ease-out;
+}
+/* added preloader sytle end here */
+
+
+
+/* percentage preloader style start here */
+/* percentage preloader style start here */
+
+.main-preloader {
+position: fixed;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+z-index: 999999999;
+background-color: #000;
+text-align: center;
+}
+/* .main-preloader .main-preloader-inner {
+position: absolute;
+top: 61%;
+width: 100%;
+} */
+.main-preloader .preloader-percentage {
+color: #19CBAE;
+margin: 0;
+}
+.main-preloader .preloader-percentage span {
+display: inline-block;
+float: center;
+font-size: 15px;
+}
+.blog-header {            
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blog-overlay {
+  background: rgba(0, 0, 0, 0.42);
+  color: #fff;
+}
+.header-content{
+  padding: 100px 0;
+}
+.header-content img{
+  margin-top: 30px;
+}
+.header-content a{
+  padding: 20px 30px;
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 2px;
+
+} 
+.header-content a:hover {
+  color: #5C55FD;
+  box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
+  -moz-box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
+  -webkit-box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
+  -o-box-shadow: 0 10px 65px 0 rgba(248, 247, 255, 0.32);
+}
+.content {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content p {
+  padding: 20px;
+}
+.preview{
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.preview img {
+  box-shadow: 0px 5px 20px 0px rgba(51,73,94,0.05);
+  transition: all 400ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+.preview a:hover img {
+  box-shadow: 0px 20px 65px 0px rgba(51,73,94,0.15);
+}
+img {
+  vertical-align: top;
+}
+/* h1 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #FFF;
+  margin-top: 30px;
+  margin-bottom: 60px;
+} */
+
+.rating{
+  margin-top: 60px;
+}
+.rating img{
+  padding: 30px;
+}
+.copyright{
+  padding: 20px 0;
+}
+@media only screen 
+and (max-width: 992px) {
+  .preview {
+      display: block;
+      padding: 10px;
+  }
+  .preview img{            
+      max-width:100%;
+      height:auto;
+  }
+   .header-content a{
+      display: block;
+      margin-bottom: 20px;
+   }
+
+}
+/* percentage preloader style end here */
+/* percentage preloader style end here */

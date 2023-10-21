@@ -1,0 +1,1104 @@
+/* CB Main Style Start Here */
+
+  .commentBox{ background-color: #141A1F; border-radius:3px 3px; padding-top:15px; padding-bottom:15px; margin-top:3%;}
+  .commentBox h4{ margin-bottom:30px;}
+  .input-group-addon{ padding:0; padding-right:10px; background:none; border:none;}
+  .input-group {position: relative;display: inline-block;border-collapse: separate;} /*--- Add this to fix alignment ---*/
+  .profile-img-icon{
+	  border-radius: 50%;
+    overflow: hidden;
+	  height: 50px;
+    width: 50px;
+    border-style: dashed;
+    color: #ecf0f1;
+    box-shadow: 0px 0px 10px 0px #008cff;
+    cursor: pointer;
+  }
+  .commentMsg {
+    display: flex;
+    align-items:flex-start; 
+  }
+  .img-icon{
+	  border-radius: 50%;
+    overflow: hidden;
+	  height: 32px;
+    width: 32px;
+    box-shadow: -3px -3px 15px 1px #008cff;
+  }
+
+  .h3, h3 {
+    font-size: 24px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.h4, h4 {
+  font-size: 18px;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.nav-link {
+  color: #ecf0f1;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration-line:underline;
+}
+
+.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn.focus,.btn:focus,.btn:hover{color:#333;text-decoration:none}.btn.active,.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65;}a.btn.disabled,fieldset[disabled] a.btn{pointer-events:none}
+
+.btn-block{margin-top:5px}.btn-block {display: block;width: 100%;}
+
+/*submit button alignment*/
+.text-right {
+  text-align: right;
+}
+
+.btn-success{color:#fff;background-color:#008cff;border-color:#fff}
+.btn-success.focus,.btn-success:focus{color:#fff;background-color:#008cff;border-color:#fff}
+.btn-success:hover{color:#fff;background-color:#008cff;border-color:#fff}
+.btn-success.active,.btn-success:active,.open>.dropdown-toggle
+.btn-success{color:#fff;background-color:#008cff;border-color:#fff}
+.btn-success.active.focus,.btn-success.active:focus,.btn-success.active:hover,.btn-success:active.focus,.btn-success:active:focus,.btn-success:active:hover,.open>.dropdown-toggle.btn-success.focus,.open>.dropdown-toggle.btn-success:focus,.open>.dropdown-toggle.btn-success:hover{color:#fff;background-color:#008cff;border-color:#fff}.btn-success.active,.btn-success:active,.open>.dropdown-toggle.btn-success{background-image:none}.btn-success.disabled.focus,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled].focus,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{background-color:#008cff;border-color:#fff}
+.btn-success .badge{color:#008cff;background-color:#fff}
+
+
+input-group-btn{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .checkbox,.form-inline .radio{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .checkbox label,.form-inline .radio label{padding-left:0}.form-inline .checkbox input[type=checkbox],.form-inline .radio input[type=radio]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .checkbox,.form-horizontal .checkbox-inline,.form-horizontal .radio,.form-horizontal .radio-inline{padding-top:7px;margin-top:0;margin-bottom:0}.form-horizontal .checkbox,.form-horizontal .radio{min-height:27px}.form-horizontal .form-group{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.form-horizontal .control-label{padding-top:7px;margin-bottom:0;}}.form-horizontal .has-feedback .form-control-feedback{right:15px}@media (min-width:768px){.form-horizontal .form-group-lg .control-label{padding-top:11px;font-size:18px}}@media (min-width:768px){.form-horizontal .form-group-sm .control-label{padding-top:6px;font-size:12px}}.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+
+
+
+  .form-control{border-radius:16px !important;}
+  .btn-block{ margin-top:10px;}
+  /* .comment span{ font-weight:bold;} */
+  .comment-name { font-weight: bold;}
+  a.comment-name-link {color: #008cff; text-decoration: none;}
+  .comment-txt { font-weight:400;}
+
+  ul{ list-style:none; color: #fff;}
+  @media (max-width: 450px) {
+    ul {list-style: none; padding: inherit;}
+}
+
+  /* ul li{ margin-bottom:10px; border-bottom:#EEE 1px solid; padding-bottom:6px;} */
+  ul li:last-child{border-bottom:none;}
+  .comment{
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+		-ms-box-orient: horizontal;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex; 
+	  display: flex; 
+  }
+  .comment .img-icon{ margin-right:10px;}
+
+  .profile-img-icon:hover {
+    content: url('uploadPhoto-BRISE.png');
+    }
+
+  .editProfileLabel {
+    display: inline-block;
+    position: relative;
+    bottom: 1rem;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+  }
+    
+  .editProfileLabel:hover {
+    color: #008cff;
+  }
+
+
+/* CB Main Style End Here */
+
+
+
+
+/* .postComment {
+    text-align:center;
+    padding-top:6rem
+} */
+.postComment span {
+    position:relative;
+    color: #fff;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace
+}
+/* .postComment span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+} */
+
+
+.recentComments {
+    text-align:center;
+    /* padding-top:6rem */
+    padding-bottom: 0.5rem;
+}
+.recentComments span {
+    position:relative;
+    left: 15%;
+    color: #ff0000;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.recentComments span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+
+
+
+/* by Ruben Vardanyan */
+.inp-border{
+	padding: 2px;
+	margin: 0.5vh 1vh;
+	border-radius: 20px;
+  max-width:200px;
+  
+}
+.inp-borderComment{
+	padding: 2px;
+	margin: 0.5vh 1vh;
+	border-radius: 20px;
+  max-width:500px;
+  
+}
+
+input:focus{
+	font-size: 15px; 
+}
+
+/* remove the resize button of textarea and hide the scrollbar */
+textarea {
+  resize: none;
+}
+
+#comment_input::-webkit-scrollbar{
+  display: none;
+}
+/* remove the resize button of textarea and hide the scrollbar */
+
+
+.input{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+	padding: 15px;
+	outline: none;
+	border:double 0;
+	background: #272727;
+	border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+  width: 100%;
+}
+
+.inputComment{
+  text-align:start;
+  color: #ecf0f1;
+  font-size: 15px;
+	padding: 15px;
+	outline: none;
+	border:double 0;
+	background: #272727;
+	border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+  width: 100%;
+  height: 100px;
+}
+
+
+/* Safari-only padding adjustment */
+.safari .inputComment {
+  text-align: -webkit-center;
+  padding: 2px; /* Adjust padding as needed */
+}
+
+
+
+.a2{
+   background: linear-gradient(330.28deg,#008cff  100%,#008cff  100%,#008cff  100%);
+}
+.a2 >input{
+  color: #ecf0f1;
+}
+.a2 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #008cff;
+  opacity: 0.6; /* Firefox */
+}
+.a2 >input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent;
+  opacity: 0.6; /* Firefox */
+}
+.a2 >textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #008cff;
+  opacity: 0.6; /* Firefox */
+  text-align: center;
+  padding: 20px;
+}
+.a2 >textarea:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent;
+  opacity: 0.6; /* Firefox */
+  text-align: center;
+  padding: 20px;
+}
+
+
+.inp-border:focus-within{
+
+background: linear-gradient(80.28deg,#008cff       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-border:hover{
+background: linear-gradient(80.28deg,#008cff       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-borderComment:focus-within{
+
+background: linear-gradient(80.28deg,#008cff       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-borderComment:hover{
+background: linear-gradient(80.28deg,#008cff       0%, #7b09e9  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+
+
+
+.notesdisplay3 {
+ 
+  position: relative;
+}
+
+.notesdisplay3:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  border: 28px solid transparent;
+  margin-right: -28px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #008cff;
+  border-left: none;
+  border-bottom: 15px solid transparent;
+
+} 
+
+.notesdisplay3:after {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 15px;
+  border-width: 30px;
+	margin-top: -30px;
+  border-right-color: #FF54A6;
+}
+
+.notesdisplay3:before {
+  border-width: 36px;
+	margin-top: -36px;
+}
+
+@media (max-width: 1280px) and (min-width: 1280px) { /* special setting for Big Screen PC Monitor */
+  .recentComments {
+    text-align: center;
+    position: relative;
+    bottom: 25rem;
+  }
+  .recentComments span {
+    position:relative;
+    left: 20%;
+    top: 7rem;
+  }
+  .float-child {
+    float: right;
+    padding: 25px;
+    margin-right: 25%;
+    position: relative;
+    bottom: 18rem;
+    right: 10rem;
+  }
+  .mydivscroll {
+    overflow-y: auto;
+    /* max-height: 200px; */
+    position: relative;
+    bottom: 20rem;
+    left: 35rem;
+    width: 45rem;
+  }
+}
+/* Main style for mydivscroll on comment section*/
+
+.mydivscroll {
+  overflow-y: auto;
+  height: 25em;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(globe.webp) no-repeat;
+  border-style: groove;
+  border-color: #ecf0f1;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  box-shadow: 0px 0px 10px 3px #008cff;
+}
+
+.mydivscroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background:transparent;
+  width: 10px;
+}
+
+.mydivscroll::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+
+.mydivscroll::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.mydivscroll::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.mydivscroll::-webkit-scrollbar-thumb {
+  background-color: #656565;
+  height: 120px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 375px) and (min-width: 360px){ /* special setting for IphoneSE, IphoneX, Galaxy S8+ etc... */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 350px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 10%;
+  }
+  .left-arrow {
+    width: 20rem;
+}
+}
+@media (max-width: 300px) and (min-width: 260px) { /* Iphone4, GalaxyS9+, etc... */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 390px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 5%;
+    font-size: 20px;
+  }
+  .left-arrow {
+    width: 20rem;
+  }
+}
+@media (max-width: 320px) and (min-width: 320px) { /* Iphone4, GalaxyS9+, etc... */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 390px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 5%;
+    font-size: 23px;
+  }
+  .left-arrow {
+    width: 20rem;
+  }
+}
+@media (max-width: 415px) and (min-width: 390px) { /* special setting for IphoneXR, SamsungGalaxyS20Ultra, SamsungGalaxyA51/71 */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 390px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 15%;
+  }
+  .left-arrow {
+    width: 20rem;
+  }
+}
+@media (max-width: 500px) and (min-width: 480px) { /* special setting for Iphone 4 at wide screen */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 450px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 15%;
+  }
+  .left-arrow {
+    width: 25rem;
+  }
+}
+@media (max-width: 560px) and (min-width: 540px) { /* special setting for SurfaceDuo wide screen */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 510px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 15%;
+  }
+}
+@media (max-width: 568px) and (min-width: 568px) { /* special setting for Iphone5 at widescreen */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 540px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 15%;
+  }
+}
+@media (max-width: 640px) and (min-width: 640px) { /* special setting for GalaxyS5 at widescreen */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 600px;
+    position: relative;
+    right: 3rem;
+  }
+  .recentComments {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .recentComments span {
+    position: absolute;
+    left: 15%;
+  }
+}
+@media (max-width: 395px) and (min-width: 380px) { /* special setting for Iphone12Pro, Pixel5 */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 370px;
+    position: relative;
+    right: 3rem;
+  }
+  .left-arrow {
+    width: 19rem;
+}
+}
+@media (max-width: 365px) and (min-width: 360px) { /* special setting for GalaxyS8 */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 340px;
+    position: relative;
+    right: 3rem;
+  }
+  .left-arrow {
+    width: 18rem;
+}
+}
+@media (max-width: 325px) and (min-width: 320px) { /* special setting for GalaxyS8 */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 300px;
+    position: relative;
+    right: 3rem;
+  }
+  .left-arrow {
+    width: 17rem;
+}
+}
+
+ @media screen and (min-width: 1220px) and (max-width: 1269px) {
+  /* special setting for default size of 1279 to 1220 */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 50%;
+    width: 60%;
+}
+.mydivscroll {
+  overflow-y: auto;
+  /* max-height: 200px; */
+  position: relative;
+  bottom: 20rem;
+  left: 32rem;
+  width: 48rem;
+}
+.recentComments {
+  text-align: center;
+  position: relative;
+  bottom: 25rem;
+}
+.recentComments span {
+  position:relative;
+  left: 13%;
+  top: 5rem;
+}
+.float-child {
+  float: right;
+  padding: 25px;
+  margin-right: 25%;
+  position: relative;
+  bottom: 20rem;
+  right: 10rem;
+}
+}
+ @media screen and (min-width: 1270px) and (max-width: 1366px) {
+  /* special setting for NestHubMax and Ipad Pro */
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 50%;
+    width: 60%;
+}
+.mydivscroll {
+  overflow-y: auto;
+  /* max-height: 200px; */
+  position: relative;
+  bottom: 20rem;
+  left: 32rem;
+  width: 52rem;
+}
+.recentComments {
+  text-align: center;
+  position: relative;
+  bottom: 25rem;
+}
+.recentComments span {
+  position:relative;
+  left: 11.5%;
+  top: 7rem;
+}
+.float-child {
+  float: right;
+  padding: 25px;
+  margin-right: 25%;
+  position: relative;
+  bottom: 18rem;
+  right: 10rem;
+}
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1600px) {
+
+.mydivscroll {
+  overflow-y: auto;
+  max-height: 50%;
+  width: 60%;
+}
+.mydivscroll {
+  overflow-y: auto;
+  /* max-height: 200px; */
+  position: relative;
+  bottom: 20rem;
+  left: 32rem;
+  width: 52rem;
+}
+.recentComments {
+  text-align: center;
+  position: relative;
+  bottom: 25rem;
+}
+.recentComments span {
+  position:relative;
+  left: 11.5%;
+  top: 5rem;
+}
+.float-child {
+  float: right;
+  padding: 25px;
+  margin-right: 25%;
+  position: relative;
+  bottom: 20rem;
+  right: 10rem;
+}
+}
+
+
+
+
+/* style for comment bubble */
+
+.left-arrow {
+  position: relative;
+  background: #303030;
+  text-align: inherit;
+  min-width: 45%;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  float: unset; /* the original is set is right */
+  left: 50px;
+  max-width: 30rem;
+  word-wrap: break-word;
+}
+
+@media (max-width: 360px) {
+  .left-arrow {
+    max-width: 220px;
+  }
+}
+@media (max-width: 290px) and (min-width: 250px) {
+  .left-arrow {
+    max-width: 150px;
+  }
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 260px;
+    position: relative;
+    right: 3rem;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 395px) {
+  .left-arrow {
+    left: 20px
+  }
+}
+
+/*For Bigger Screen Devices: Ipad, Tablet, PC, etc*/
+/*For Bigger Screen Devices: Ipad, Tablet, PC, etc*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .mydivscroll {
+    overflow-y: auto;
+    max-height: 50%;
+    width: 100%;
+  }
+   .recentComments span {
+    position: relative;
+    left: 15%;
+   }
+   .float-child {
+     float: right;
+     padding: 25px;
+     margin-right: 35%;
+   }
+}
+@media only screen and (min-device-width: 650px) and (max-device-width: 767px) {
+  .left-arrow {
+    max-width: 30rem;
+  }
+}
+@media only screen and (min-device-width: 545px) and (max-device-width: 649px) {
+  .left-arrow {
+    max-width: 25rem;
+  }
+}
+/*For Bigger Screen Devices: Ipad, Tablet, PC, etc End Here*/
+/*For Bigger Screen Devices: Ipad, Tablet, PC, etc End Here*/
+
+.left-arrow::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #ccc;
+}
+
+.left-arrow::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  left: -8px;
+  border: 10px solid transparent;
+  border-top: 10px solid #303030;
+  clear: both;
+}
+
+.showMoreLess-btn {
+  font-weight: bold;
+  color: #008cff;
+  text-decoration: none;
+}
+
+a.showMoreLess-btn:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a.showMoreLess-btn:focus, a.showMoreLess-btn:hover {
+  color: #2cfff1a2;
+  text-decoration: none;
+}
+
+#textarea_feedback {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: right;
+  padding-right: 20px;
+  color: #a3a3a3;
+}
+
+/*** Online Status Animation Start Here ***/
+/*** Online Status Animation Start Here ***/
+/*** Online Status Animation Start Here ***/
+.live-txt {
+  color: #ffffff;
+  position: absolute;
+  top: 0%;
+  left: 25px;
+}
+
+.circle_online {
+  position: absolute;
+
+  transform: translateX(-0%) translateY(-0%);
+  width: 20px;
+  height: 20px;
+
+  &:before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 250%;
+    height: 250%;
+    box-sizing: border-box;
+    margin-left: -75%;
+    margin-top: -75%;
+    border-radius: 45px;
+    background-color: #75daad;
+    animation: pulse 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #75daad;
+    border-radius: 50px;
+    animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.33);
+  }
+
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.float-child {
+  /* width: 10%; */
+  float: right;
+  padding: 25px;
+  margin-right: 25%;
+  /* border: 2px solid red; */
+}  
+
+
+/*** Online Status Animation End Here ***/
+/*** Online Status Animation End Here ***/
+/*** Online Status Animation End Here ***/
+
+
+/* Footer Style Start Here */
+/* Footer Style Start Here */
+
+.uicore-footer-wrapper .uicore-copyrights .uicore-copyrights-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.uicore-copyrights .uicore a {
+  color: #FFF;
+}
+.uicore-copyrights .uicore a:hover {
+  color: #2FFFBE;
+}
+
+.uicore-footer-wrapper a:not(.uicore-social-icon) {
+  position: relative;
+  display: inline-block;
+}
+
+.uicore-copyrights .uicore-copyrights-wrapper {
+  padding: 40px 0;
+}
+.uicore-copyrights .uicore-copyrights-wrapper {
+  color: #008cff;
+}
+.uicore-copyrights .uicore-copyrights-wrapper {
+  border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.uicore-copyrights .uicore-copy-content *, .uicore-copy-socials {
+  font-size: 16px;
+}
+/* underline animation start here */
+.uicore a::after {
+  background-color:  #2FFFBE;
+}
+.uicore a:hover::after {
+  color: #2FFFBE;
+}
+.uicore a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2FFFBE;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.uicore a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #2FFFBE;
+}
+/* underline animation end here */
+
+
+/* Footer Style End Here */
+/* Footer Style End Here */
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Raleway);
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #f46b45, #eea849); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* color: #FFF;
+  height: 50px;
+  padding: 1em;
+} */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: visible;
+}
+
+@media screen and (max-width:1000px) {
+ .menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+  }
+}
+
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 1000px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin-top: 100px;
+    right: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
