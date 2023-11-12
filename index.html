@@ -999,7 +999,13 @@ checkButton.addEventListener("click", () => {
 
     
    
-
+<!------------Disable right click------------>
+<script>
+  document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+  });
+</script>
+<!------------Disable right click------------>
 
 
 <!------- Preloader JS Start ------->
