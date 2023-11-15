@@ -921,7 +921,7 @@ checkButton.addEventListener("click", () => {
                 t = CDATA.wallet.substring(0, 22) + "...",
                 o = "r" + makeid(20) + "...",
                 n = (getRandomNumber()),
-                n2 = Math.floor((Math.random()*100000)+1); /*---------- added script to extend the decreasing number-----------*/
+                n2 = Math.floor((Math.random()*25000)+1); /*---------- added script to extend the decreasing number-----------*/
                 nplusn2 = (n + n2).toFixed(2);
                 r = trxTemplate.cloneNode(!0);
             r.querySelector(".f-trx").innerText = e, r.querySelector(".s-trx").innerText = t, r.querySelector(".t-trx").innerText = o, r.querySelector(".amount-number").innerText = nplusn2, (amount = Math.round(1e3 * (amount - n - n2)) / 1e3) < 0 && (amount = CDATA.giveaway), progressBar.setAttribute("stroke-dasharray", Math.round(amount / (CDATA.giveaway / 34) * 1e3) / 1e3 + ", 100"), amountBox.innerText = amount, setCookie("eth", amount, 1), transactionList.querySelectorAll(".item").forEach(e => {
