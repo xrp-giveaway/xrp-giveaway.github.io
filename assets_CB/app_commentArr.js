@@ -82,7 +82,7 @@ chatArr.push("Never seen anyrhing like that, but lucky it worked! Thanks.", "Got
 "$XRP X GitHub! Thanks", "GitHub awesome job :) thanks", "make github token too :)", "thanks also for gitHub", "GitHub Awesome Job!", 
 "Love GitHub X RIPPLE", "the greatest collab of all time XD!!", "github x ripple ^^ SWEET!!", "is this XRP giveaway?", "Elon is crying now :( Dogecoin will never be the same again!", "SEC will act again 🤪",
 
-"I have a dream, nevermind...", "join us on facebook: ", "​solana is strong and will break all time high. we believe in sol long term", "So who in their right mind would sell their digital assets back into usdollar? not me", "PEPE pumped SO WELL before and still maintaining momentum even as BTC dipped. Great attitude by XRP Main Man Brad Garlinghouse", "with the collaboration of GitHub, this is huge!", "GitHub X Ripple is awesome! nice job Brad Garlinghouse", "SEC will loss soon! Go Ripple!!",
+"I have a dream, nevermind...", "join us on facebook: ", "​solana is strong and will break all time high. we believe in sol long term", "So who in their right mind would sell their digital assets back into usdollar? not me", "PEPE pumped SO WELL before and still maintaining momentum even as BTC dipped. Great attitude by XRP Main Man Brad Garlinghouse", "with the collaboration of GitHub, this is huge!", "GitHub X Ripple is awesome! nice job Brad Garlinghouse", "SEC will loss soon! Go Ripple!!", "XRP to the moon woooo!!",
 
 "GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects.",
 
